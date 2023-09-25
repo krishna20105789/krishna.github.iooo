@@ -1,1 +1,45 @@
-print>krishna is god
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> student form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>student form</h1>
+  <div>
+  <p> enter your name <input type="text"
+    placeholder="enter your name"></p>
+    <hr>
+    <p> enter your number</p>
+    <input type="text" placeholder="enter your number">
+    <hr>
+    <p> gender</p>
+    <label for="gender">
+    <input type="radio" value="gender" name="gender" id="gender">male
+    </label>
+    <hr>
+    <label for="genderf">
+      <input type="radio" value="genderf" name="genderf" id="genderf">female
+      </label>
+      <hr>
+      <label for="gendero">
+        <input type="radio" value="gendero" name="gendero" id="gendero">others
+        </label>
+        <hr>
+        <div>
+          <p>watch this video for more details</p>
+          <button><a href="manu di.mp4">next page</a>
+          </button>
+          <hr>
+          <input type="checkbox" name="are you a student" id=" are you a student" class="red"> are you a student
+          <hr>
+          <select name=" select your course" id="">select your course
+       <option value="no course">select your course</option>   
+       <option value="MBA">MBA</option>
+       <option value="MBBS">MBBS</option>
+      </select>
+</body>
+</html>
